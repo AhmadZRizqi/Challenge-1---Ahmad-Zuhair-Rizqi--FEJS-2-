@@ -1,0 +1,93 @@
+body{
+    font-family: 'Helvetica';
+}
+
+.judul-web{
+    font-weight: 700;
+}
+nav{
+    padding: 10px;
+    background-color: #F1F3FF;
+    width: 100%;
+}
+
+#main{
+    background-color: #F1F3FF;
+}
+
+#our-services{
+    background-color: white;
+}
+
+#register{
+    width: 80px;
+    text-align: center;
+}
+
+#greeting{
+    padding: 100px;
+    background-color: #F1F3FF;
+}
+
+#services-list{
+    padding: 50px;
+    background-color: white;
+}
+
+#sewa-lokasi{
+    margin: 70px;
+    height: 20rem;
+    background-color: #0D28A6;
+    
+}
+
+ul{
+    list-style-image: url(./assets/check.png);
+}
+
+li{
+    padding-left: 10px;
+    top: 0%;
+}
+
+.row.col-sm-3{
+    padding: 10px;
+}
+
+#question{
+    margin: 30px;
+}
+
+.carousel-inner{
+    background-color: #F1F3FF; 
+    justify-content: center; 
+    height: 50vh;
+    align-content: center;
+    padding-top: 50px;
+}
+
+#carousel-person{
+    
+}
+
+.car-img{
+    position: absolute; 
+    right: 0; 
+    bottom: 0; 
+    width: 100%;
+}
+.why{
+    padding-left: 20px; padding-top: 20px; padding-bottom: 20px;
+}
+@media (max-width: 992px){
+    .car-img{ 
+        right: 0; 
+        bottom: 0; 
+        width: 100%;
+    }
+
+    #why-us{
+        justify-content: center;
+        text-align: center;
+    }
+}
