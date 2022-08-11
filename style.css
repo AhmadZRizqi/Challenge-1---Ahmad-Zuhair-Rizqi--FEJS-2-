@@ -101,7 +101,14 @@ li{
 }
 
 .why{
-    padding-left: 20px; padding-top: 20px; padding-bottom: 20px;
+    padding:20px;
+}
+
+.testi{
+    padding-top:50px;
+    padding-bottom:20px;
+    justify-content: center;
+    text-align: center;
 }
 
 @media (max-width: 992px){
