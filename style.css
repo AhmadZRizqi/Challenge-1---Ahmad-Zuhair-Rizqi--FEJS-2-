@@ -2,14 +2,21 @@ body{
     font-family: 'Helvetica';
 }
 
+.navbar-style{
+    align-items: flex-end;
+}
+
 .judul-web{
     font-weight: 700;
 }
+
 nav{
     padding: 10px;
     background-color: #F1F3FF;
     width: 100%;
 }
+
+
 
 #main{
     background-color: #F1F3FF;
@@ -20,13 +27,14 @@ nav{
 }
 
 #register{
-    width: 80px;
+    width: 100px;
     text-align: center;
 }
 
 #greeting{
     padding: 100px;
     background-color: #F1F3FF;
+    position: relative;
 }
 
 #services-list{
@@ -35,10 +43,9 @@ nav{
 }
 
 #sewa-lokasi{
-    margin: 70px;
+    margin: 10vh;
     height: 20rem;
     background-color: #0D28A6;
-    
 }
 
 ul{
@@ -55,7 +62,15 @@ li{
 }
 
 #question{
-    margin: 30px;
+    margin: 10vh;
+}
+
+#bottom-page{
+    margin: 10vh;
+}
+
+.container-style{
+    align-self: center;
 }
 
 .carousel-inner{
@@ -66,8 +81,12 @@ li{
     padding-top: 50px;
 }
 
-#carousel-person{
-    
+.carousel-image{
+    width: 10vw;
+}
+
+.carousel-person{
+    text-align: end;
 }
 
 .car-img{
@@ -76,18 +95,70 @@ li{
     bottom: 0; 
     width: 100%;
 }
+
+.car-div{
+    position: relative;
+}
+
 .why{
     padding-left: 20px; padding-top: 20px; padding-bottom: 20px;
 }
+
 @media (max-width: 992px){
-    .car-img{ 
-        right: 0; 
-        bottom: 0; 
-        width: 100%;
+    #greeting{
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #F1F3FF;
     }
 
     #why-us{
         justify-content: center;
         text-align: center;
     }
+
+    .navbar-style{
+        align-items: flex-start;
+    }
+
+    .card-style{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .carousel-person{
+        text-align: center;
+    }
+
+    .carousel-inner{
+        background-color: #F1F3FF; 
+        justify-content: center; 
+        height: 50vh;
+        align-content: center;
+        padding-top: 50px;
+    }
+
+    .carousel-content{
+        margin: 5px;
+    }
+
+    .carousel-image{
+        width: 20vw;
+    }
+
+    #question{
+        margin: 5vh;
+    }
+    
+    #bottom-page{
+        margin: 5vh;
+    }
+
+    #sewa-lokasi{
+        margin: 5vh;
+        height: 20rem;
+        background-color: #0D28A6;
+    }
+
 }
