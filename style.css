@@ -20,6 +20,12 @@ nav{
     width: 100%;
 }
 
+.nav-item{
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: 500;
+}
+
 #main{
     background-color: #F1F3FF;
 }
@@ -45,7 +51,7 @@ nav{
 }
 
 #sewa-lokasi{
-    margin: 10vh;
+    margin-top: 15vh;
     height: 20rem;
     background-color: #0D28A6;
     justify-content: center;
@@ -66,10 +72,12 @@ nav{
 
 #question{
     margin: 10vh;
+    padding-top: 20px;
 }
 
 #bottom-page{
     margin: 10vh;
+    padding-top: 20px;
 }
 
 .container-style{
@@ -103,8 +111,12 @@ nav{
     position: relative;
 }
 
+#why-us{
+    padding-top: 30px;
+}
+
 .why{
-    padding:20px;
+    padding: 20px;
 }
 
 .testi{
@@ -134,6 +146,7 @@ nav{
     #why-us{
         justify-content: center;
         text-align: center;
+        padding-top: 10px;
     }
 
     .navbar-style{
@@ -141,8 +154,8 @@ nav{
     }
 
     .card-style{
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 7px;
+        padding-bottom: 7px;
     }
 
     .carousel-person{
@@ -167,10 +180,12 @@ nav{
 
     #question{
         margin: 5vh;
+        padding-top: 10px;
     }
     
     #bottom-page{
         margin: 5vh;
+        padding-top: 10px;
     }
 
     #sewa-lokasi{
@@ -178,6 +193,10 @@ nav{
         margin: 5vh;
         height: 20rem;
         background-color: #0D28A6;
+    }
+
+    .nav-item{
+        padding-left: 15px;
     }
 
 }
