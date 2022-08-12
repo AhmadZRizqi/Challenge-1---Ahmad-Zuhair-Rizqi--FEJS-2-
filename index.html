@@ -23,7 +23,8 @@
                 </button>
 
             <div class="offcanvas offcanvas-end navbar-style" id="navbarSupportedContent">
-              <div class="offcanvas-header">
+              <div class="offcanvas-header" style="width: 100%;">
+                <strong>BCR</strong>
                 <button type="button" class="btn-close float-end" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
                 <ul class="nav nav-pills navbar-nav mr-justify-content-end">
@@ -49,20 +50,23 @@
     </header>
 
     <section id="main">
+      <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 col-sm-12" id="greeting">
-                <div class="card" style="width: 22,5rem; background-color: #F1F3FF; border-color: #F1F3FF;">
-                    <div class="card-body">
-                      <h4 class="card-title judul-web">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h4>
-                      <p class="card-text">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
-                      <a href="#" class="btn font-weight-bold btn-success">Mulai Sewa Mobil</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12 car-div">
-                <img src="./assets/img_car.png" class="img-fluid car-img" alt="Responsive image">
-            </div>
-        </div>
+          <div class="col-md-6 col-sm-12" id="greeting">
+              <div class="card" style="width: 22,5rem; background-color: #F1F3FF; border-color: #F1F3FF;">
+                  <div class="card-body">
+                    <h4 class="card-title judul-web">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h4>
+                    <p class="card-text">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+                    <a href="#" class="btn font-weight-bold btn-success">Mulai Sewa Mobil</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6 col-sm-12 car-div">
+              <img src="./assets/img_car.png" class="img-fluid car-img" alt="Responsive image">
+          </div>
+      </div>
+      </div>
+        
     </section>
 
     <section id="our-services">
@@ -161,7 +165,7 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="row align-self-center">
+              <div class="row d-flex align-items-center">
                 <div class="col-md-3 col-sm-12 carousel-person">
                   <img src="./assets/guy.png"  class="carousel-image">
                 </div>
@@ -172,7 +176,7 @@
                   <img src="./assets/Star.png" alt="" srcset="">
                   <img src="./assets/Star.png" alt="" srcset="">
                   <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
-                  <p>John Dee 32, Bromo</p>
+                  <strong>John Dee 32, Bromo</strong>
                 </div>
               </div>
             </div>
@@ -188,7 +192,7 @@
                   <img src="./assets/Star.png" alt="" srcset="">
                   <img src="./assets/Star.png" alt="" srcset="">
                   <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
-                  <p>John Dee 32, Bromo</p>
+                  <strong>John Dee 32, Bromo</strong>
                 </div>
               </div>
             </div>
@@ -204,7 +208,7 @@
                   <img src="./assets/Star.png" alt="" srcset="">
                   <img src="./assets/Star.png" alt="" srcset="">
                   <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
-                  <p>John Dee 32, Bromo</p>
+                  <strong>John Dee 32, Bromo</strong>
                 </div>
               </div>
             </div>
@@ -221,10 +225,10 @@
       </div>
     </section>
 
-    <section id="sewa-lokasi">
+    <section>
       <div class="container-fluid text-center text-white">
-        <div class="row align-items-center">
-          <div class="col">
+        <div class="d-flex align-items-center" id="sewa-lokasi">
+          <div class="d-flex align-items-center" style="flex-direction: column;">
             <h2 class="font-weight-bold">Sewa Mobil di (Lokasimu) Sekarang</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             <a class="btn font-weight-bold btn-success">Mulai Sewa Mobil</a>

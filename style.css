@@ -16,8 +16,6 @@ nav{
     width: 100%;
 }
 
-
-
 #main{
     background-color: #F1F3FF;
 }
@@ -46,6 +44,7 @@ nav{
     margin: 10vh;
     height: 20rem;
     background-color: #0D28A6;
+    justify-content: center;
 }
 
 ul{
@@ -75,11 +74,11 @@ li{
 
 .carousel-inner{
     background-color: #F1F3FF; 
-    justify-content: center; 
     height: 50vh;
-    align-content: center;
-    padding-top: 50px;
+    justify-content: center;
+    padding-top: 75px;
 }
+
 
 .carousel-image{
     width: 10vw;
@@ -120,6 +119,14 @@ li{
         background-color: #F1F3FF;
     }
 
+    .car-img{
+        position: static; 
+        right: 0; 
+        bottom: 0; 
+        width: 100%;
+    }
+    
+
     #why-us{
         justify-content: center;
         text-align: center;
@@ -143,7 +150,7 @@ li{
         justify-content: center; 
         height: 50vh;
         align-content: center;
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     .carousel-content{
@@ -163,6 +170,7 @@ li{
     }
 
     #sewa-lokasi{
+        padding: 2vh;
         margin: 5vh;
         height: 20rem;
         background-color: #0D28A6;
